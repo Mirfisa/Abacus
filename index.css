@@ -5,3 +5,20 @@
     display: flex;
     justify-content: space-between;
 }
+
+.picSize {
+    height: 680px;
+    /* your fixed height */
+    width: 100%;
+    /* fills container width */
+    object-fit: cover;
+    /* crops to fit without stretching */
+}
+
+.myfontSize {
+    font-size: 48px;
+}
+
+.myfontSize2 {
+    font-size: 16px;
+}
