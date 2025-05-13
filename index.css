@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .navbar {
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -44,6 +47,49 @@
     height: 586px;
     object-fit: cover;
     object-position: center;
+}
+
+.bg-but-pink {
+    color: royalblue !important;
+    background-color: #F496D1;
+    opacity: .1;
+    border-color: #F496D1;
+}
+
+.custom-button {
+    background-color: rgba(244, 150, 209, 0.1);
+    /* #F496D1 with 10% opacity */
+    color: blue;
+    /* Fully opaque blue text */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Card {
+    height: 323px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow:
+        4px 0 10px 2px rgba(0, 0, 0, 0.10),
+        -4px 0 10px rgba(0, 0, 0, 0.05),
+        0 4px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+footer {
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    margin-top: 150px;
 }
 
 /* For small screens (≥576px) */
